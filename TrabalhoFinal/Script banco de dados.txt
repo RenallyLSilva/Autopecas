@@ -1,0 +1,110 @@
+-- Create database if not exists
+CREATE DATABASE IF NOT EXISTS business_management;
+
+-- Use the created database
+USE business_management;
+
+-- Table for FORNECEDOR (Suppliers)
+CREATE TABLE IF NOT EXISTS fornecedor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    codigo VARCHAR(50),
+    endereco VARCHAR(200),
+    cnpj VARCHAR(20),
+    telefone VARCHAR(20),
+    email VARCHAR(100)
+);
+
+-- Table for CLIENTES (Customers)
+CREATE TABLE IF NOT EXISTS clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    codigo VARCHAR(50),
+    endereco VARCHAR(200),
+    cnpj_cpf VARCHAR(20),
+    telefone VARCHAR(20),
+    email VARCHAR(100)
+);
+
+-- Table for PRODUTOS (Products)
+CREATE TABLE IF NOT EXISTS produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    descricao VARCHAR(200),
+    codigo VARCHAR(50),
+    valor DECIMAL(10, 2),
+    tamanho VARCHAR(50),
+    peso DECIMAL(10, 2)
+);
+
+-- Table for COLABORADORES (Employees)
+CREATE TABLE IF NOT EXISTS colaboradores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    codigo VARCHAR(50),
+    endereco VARCHAR(200),
+    cpf VARCHAR(20),
+    telefone VARCHAR(20),
+    data_nascimento DATE,
+    salario DECIMAL(10, 2),
+    email VARCHAR(100)
+);
+
+-- Table for FINANCEIRO (Financial)
+CREATE TABLE IF NOT EXISTS financeiro (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    acerto_de_contas DECIMAL(10, 2),
+    contas_a_pagar DECIMAL(10, 2),
+    contas_a_receber DECIMAL(10, 2),
+    forma_de_pagamento VARCHAR(50),
+    controle_de_caixa VARCHAR(50)
+);
+
+-- Table for VENDAS (Sales)
+CREATE TABLE IF NOT EXISTS vendas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    iniciar_venda VARCHAR(100),
+    pesquisar_venda VARCHAR(100),
+    iniciar_orcamento VARCHAR(100),
+    pesquisar_orcamento VARCHAR(100),
+    itens_mais_vendidos VARCHAR(200)
+);
+
+-- Table for RELATORIOS (Reports)
+CREATE TABLE IF NOT EXISTS relatorios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produtos VARCHAR(100),
+    comissoes VARCHAR(100),
+    faturamento VARCHAR(100),
+    compras VARCHAR(100),
+    financeiro VARCHAR(100),
+    vendas VARCHAR(100)
+);
+
+-- Table for ESTOQUE (Inventory)
+CREATE TABLE IF NOT EXISTS estoque (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    movimentacao VARCHAR(200),
+    pedido_de_compras VARCHAR(200),
+    alteracao_de_preco VARCHAR(200),
+    devolucao VARCHAR(200)
+);
+
+-- Table for ENDERECO (Address)
+CREATE TABLE IF NOT EXISTS endereco (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    rua VARCHAR(100),
+    numero VARCHAR(20),
+    cep VARCHAR(20),
+    cidade VARCHAR(100),
+    estado VARCHAR(50)
+);
+
+-- Table for FERRAMENTAS (Tools)
+CREATE TABLE IF NOT EXISTS ferramentas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    configurar_comissao VARCHAR(100),
+    meus_dados VARCHAR(100),
+    login_adm VARCHAR(100),
+    login_colaborador VARCHAR(100),
+    alterar_imagem_de_fundo VARCHAR(100)
+);
