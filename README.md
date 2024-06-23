@@ -48,5 +48,8 @@ Além disso, foram utilizados conceitos e dicas da disciplina de Linguagens de P
 Segue video da funcionalidade do sistema
 
 
-https://github.com/RenallyLSilva/Autopecas/assets/160786534/82aa8b57-bb04-4baf-8de6-e322ddfadb90
+
+https://github.com/RenallyLSilva/Autopecas/assets/160786534/5248c834-dfb9-47e7-97dc-c4dee79656dc
+
+
 
