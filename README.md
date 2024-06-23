@@ -3,7 +3,7 @@
 
 Seong Auto Parts - É um sistema que possui várias funcionalidades que são típicas em sistemas de gestão para empresas de peças automotivas
 
-## Estrutura de Classes
+## Estrutura
 
 - *Fornecedor:* Gerencia as informações dos fornecedores e os produtos fornecidos.
 - *Cliente:* Armazena informações dos clientes e seu histórico de compras.
