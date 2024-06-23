@@ -31,7 +31,7 @@ O sistema utiliza os quatro pilares da POO:
 - *Herança:* Reutilização de código através da hierarquia de classes, permitindo que classes derivadas herdem propriedades e métodos de suas classes base.
 - *Polimorfismo:* Capacidade de diferentes classes utilizarem métodos de forma variada, permitindo que uma única interface possa ser usada para diferentes tipos de objetos.
 
-Além disso, foram utilizados conceitos e dicas da disciplina de Linguagens de Programação, com uma boa organização de código e a forma correta de conectar o banco de dados na ferramenta IntelliJ IDEA utilizada para o desenvolvimento.
+Além disso, foram utilizados conceitos e dicas da disciplina de **Linguagens de Programação**, com uma boa organização de código e a forma correta de conectar o banco de dados na ferramenta IntelliJ IDEA utilizada para o desenvolvimento.
 
 ## Instalação
 
