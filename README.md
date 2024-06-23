@@ -22,7 +22,7 @@ Seong Auto Parts - É um sistema que possui várias funcionalidades que são tí
 - *Banco de Dados:* MySQL
 - *IDE:* IntelliJ IDEA
 
-## CONCEITO
+## Conceito
 
 O sistema utiliza os quatro pilares da POO:
 
