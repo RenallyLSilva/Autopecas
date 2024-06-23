@@ -35,7 +35,7 @@ Além disso, foram utilizados conceitos e dicas da disciplina de Linguagens de P
 
 ## Instalação
 
-1. Clone o repositório: https://github.com/RenallyLSilva/Autopecas/blob/main/README.md
+1. Clone o repositório: https://github.com/RenallyLSilva/Autopecas
    
 2. Importe o projeto no IntelliJ IDEA.
 
