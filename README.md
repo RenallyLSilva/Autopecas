@@ -5,16 +5,49 @@ Seong Auto Parts - É um sistema que possui várias funcionalidades que são tí
 
 ## Estrutura
 
-- *Fornecedor:* Gerencia as informações dos fornecedores e os produtos fornecidos.
-- *Cliente:* Armazena informações dos clientes e seu histórico de compras.
-- *Produto:* Contém informações detalhadas sobre cada produto disponível na loja.
-- *Colaborador:* Gerencia dados dos colaboradores e suas respectivas funções.
-- *Financeiro:* Controla as transações financeiras, incluindo contas a pagar e a receber.
-- *Venda:* Responsável pelo processamento e registro de vendas.
-- *Relatório:* Gera relatórios com base nos dados do sistema para análise e tomada de decisões.
-- *Estoque:* Monitora e controla os níveis de estoque dos produtos.
-- *Endereço:* Mantém registros de endereços de clientes e fornecedores.
-- *Ferramenta:* Inclui diversas ferramentas auxiliares, como backup, restauração e análise de dados.
+- **Login:**
+  - Exibe uma tela de login para acessar o sistema.
+  - Para acesso, utilizar as credenciais padrão: Usuário: admin / Senha: admin.
+
+- **Vitrine:**
+  - Mostra os produtos disponíveis na loja para visualização e compra.
+  - Os clientes podem navegar e explorar os itens oferecidos.
+
+- **Carrinho:**
+  - Permite que os clientes adicionem produtos ao carrinho de compras.
+  - Revisão das seleções antes de finalizar a compra.
+  
+- **Pagamento:**
+  - Gera a interface para o processamento de pagamentos.
+  - Inclui métodos de pagamento seguros e eficientes.
+
+- **Fornecedores:**
+  - Gerencia as informações dos fornecedores da empresa.
+  - Inclui detalhes de contato, histórico de pedidos, etc.
+
+- **Clientes:**
+  - Armazena informações dos clientes.
+  - Histórico de compras para melhor atendimento e fidelização.
+
+- **Colaboradores:**
+  - Gerencia dados dos colaboradores da empresa.
+  - Atribui funções específicas e monitora atividades.
+
+- **Financeiro:**
+  - Controla transações financeiras.
+  - Gestão de contas a pagar e a receber.
+
+- **Relatórios:**
+  - Gera relatórios com base nos dados do sistema.
+  - Análise para tomada de decisões estratégicas.
+
+- **Estoque:**
+  - Monitora e controla os níveis de estoque dos produtos.
+  - Gestão eficiente para evitar falta ou excesso de produtos.
+
+- **Ferramentas:**
+  - Inclui ferramentas auxiliares como backup, restauração e configurações do usuário.
+  - Mantém a integridade e configurações do sistema.
 
 ## Tecnologias Utilizadas
 
