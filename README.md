@@ -5,49 +5,27 @@ Seong Auto Parts - É um sistema que possui várias funcionalidades que são tí
 
 ## Estrutura
 
-- **Login:**
-  - Exibe uma tela de login para acessar o sistema.
-  - Para acesso, utilizar as credenciais padrão: Usuário: admin / Senha: admin.
+- **Login:** Exibe uma tela de login para acessar o sistema (Para acessar basta colocar Usuário: admin / Senha: admin).
 
-- **Vitrine:**
-  - Mostra os produtos disponíveis na loja para visualização e compra.
-  - Os clientes podem navegar e explorar os itens oferecidos.
+- **Vitrine:** Exibe os produtos disponíveis na loja para visualização e compra.
 
-- **Carrinho:**
-  - Permite que os clientes adicionem produtos ao carrinho de compras.
-  - Revisão das seleções antes de finalizar a compra.
-  
-- **Pagamento:**
-  - Gera a interface para o processamento de pagamentos.
-  - Inclui métodos de pagamento seguros e eficientes.
+- **Carrinho:** Permite que os clientes adicionem produtos ao carrinho de compras; Revisão das seleções antes de finalizar a compra.
 
-- **Fornecedores:**
-  - Gerencia as informações dos fornecedores da empresa.
-  - Inclui detalhes de contato, histórico de pedidos, etc.
+- **Pagamento:** Gera a interface para o processamento de pagamentos.
 
-- **Clientes:**
-  - Armazena informações dos clientes.
-  - Histórico de compras para melhor atendimento e fidelização.
+- **Fornecedores:** Gerencia as informações dos fornecedores.
 
-- **Colaboradores:**
-  - Gerencia dados dos colaboradores da empresa.
-  - Atribui funções específicas e monitora atividades.
+- **Clientes:** Armazena informações dos clientes e seu histórico de compras.
 
-- **Financeiro:**
-  - Controla transações financeiras.
-  - Gestão de contas a pagar e a receber.
+- **Colaboradores:** Gerencia dados dos colaboradores e suas respectivas funções.
 
-- **Relatórios:**
-  - Gera relatórios com base nos dados do sistema.
-  - Análise para tomada de decisões estratégicas.
+- **Financeiro:** Controla as transações financeiras, incluindo contas a pagar e a receber.
 
-- **Estoque:**
-  - Monitora e controla os níveis de estoque dos produtos.
-  - Gestão eficiente para evitar falta ou excesso de produtos.
+- **Relatórios:** Gera relatórios com base nos dados do sistema para análise e tomada de decisões.
 
-- **Ferramentas:**
-  - Inclui ferramentas auxiliares como backup, restauração e configurações do usuário.
-  - Mantém a integridade e configurações do sistema.
+- **Estoque:** Monitora e controla os níveis de estoque dos produtos.
+
+- **Ferramentas:**  Inclui algumas ferramentas auxiliares, como backup, restauração e configurações do usuário.
 
 ## Tecnologias Utilizadas
 
